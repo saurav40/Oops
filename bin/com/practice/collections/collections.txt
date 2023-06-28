@@ -1,0 +1,46 @@
+--ArrayList
+   Internally ArrayList usage array data structure.
+   it internally creates an array with an initial capacity (by default, 10). 
+   it maintains a dynamically resizing array that can grow or shrink as elements are added or removed.
+   
+   Allocation: ArrayList<Object> list;
+      The Internal array in an ArrayList is allocated sequentially in memory. 
+      The objects themselves, referred to by the object references stored in the ArrayList, are allocated separately on the heap.
+      The allocation of objects on the heap is managed by the JVM's memory allocation mechanisms.
+      The memory allocation for objects in the heap is not necessarily sequential. When you create new objects, the JVM finds available memory slots to allocate them.
+      These memory slots may not be contiguous or in any specific order.
+      
+   Thread Safe = no
+   
+--LinkedList
+   The LinkedList class in the Java Collections Framework uses a doubly linked list as its internal data structure.
+   LinkedList implements List & DeQue
+   
+   Allocation: LinkedList<Object> ll;
+   In Java, linked lists are allocated in the heap.
+   The heap is a region of memory that is dynamically allocated by the Java Virtual Machine (JVM). 
+   
+   Thread Safe = no
+ 
+--Vector
+  In the Java Collections Framework, the Vector class represents a dynamic array that grows or shrinks automatically as elements are added or removed. 
+  It is similar to an ArrayList but provides additional features for synchronization.
+  
+  Allocation : 
+    Dynamic array: Vector is implemented as a dynamic array, meaning that it internally uses an array to store its elements. 
+    It automatically adjusts its capacity as elements are added or removed, allowing it to grow or shrink dynamically.
+
+  Thread-safe:
+      Unlike ArrayList, the Vector class is synchronized, which means it is designed to be used in multi-threaded environments.
+      
+--Stack
+  In Java Collections Framework, the Stack class represents a Last-In-First-Out (LIFO) data structure,
+  where elements are added and removed from the top of the stack. 
+  The Stack class is a subclass of the Vector class and provides additional methods specific to stack operations. 
+  
+  Allocation: Array Data Structure
+  
+  Thread Safe = yes (subclass of vector)
+  
+
+     

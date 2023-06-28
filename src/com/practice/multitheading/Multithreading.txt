@@ -1,0 +1,9 @@
+Multithreading in Java refers to the concurrent execution of 
+multiple threads within a single Java program.
+Each thread represents an independent flow of execution,
+allowing different blocks of the program to run concurrently.
+
+2ways to create thred in java.
+  1. By extending Thread Class
+  2. Implementing Runnable Interface
+  
