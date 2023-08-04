@@ -8,7 +8,7 @@ public class TestClass {
 	for(int i = 0 ; i <= 7; i++)
 	{
 		System.out.print(set.findUParent(i)+" ");
-	}
+	}	
 	System.out.println();
 	set.unionByRank(1, 2);
 	set.unionByRank(2, 3);

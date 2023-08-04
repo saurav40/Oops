@@ -14,7 +14,7 @@ public class DFS {
 		}
 	}
 
-	void addDEdge(int u, int v) {
+	void addEdge(int u, int v) {
 		adj.get(u).add(v);
 	}
 
@@ -51,12 +51,12 @@ public class DFS {
 				
 	public static void main(String[] args) {
 		DFS graph = new DFS(4);
-		graph.addDEdge(0, 1);
-		graph.addDEdge(0, 2);
-		graph.addDEdge(1, 2);
-		graph.addDEdge(2, 0);
-		graph.addDEdge(2, 3);
-		graph.addDEdge(3, 3);
+		graph.addEdge(0, 1);
+		graph.addEdge(0, 2);
+		graph.addEdge(1, 2);
+		graph.addEdge(2, 0);
+		graph.addEdge(2, 3);
+		graph.addEdge(3, 3);
 
 		ArrayList<Integer> res = graph.dfs(2);
 		for (int vertex : res) {

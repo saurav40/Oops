@@ -98,7 +98,6 @@ public class GameOfLife extends JPanel implements Runnable {
         }
         return count;
     }
-    
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);

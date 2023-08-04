@@ -37,7 +37,7 @@ public class Tree0_3_BST_Delete {
 			    {
 			    	root.left = helper(root.left);
 			    	break;
-			    }
+			    } 
 			    else
 			    {
 			    	root = root.left;

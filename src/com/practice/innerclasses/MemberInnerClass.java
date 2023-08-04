@@ -14,7 +14,7 @@ public class MemberInnerClass {
 		private int x = 60;
 
 		void msg() {
-			System.out.println("data is " + MemberInnerClass.this.x);
+			System.out.println(x+"data is " + MemberInnerClass.this.x);
 			MemberInnerClass.this.msg();
 		}
 

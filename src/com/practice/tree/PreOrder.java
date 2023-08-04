@@ -33,7 +33,7 @@ public class PreOrder {
 			 return;
 		Node curr = root;
 		Stack<Node> st = new Stack();
-		st.push(curr);
+		st.push(curr);	
 		
 		while(!st.isEmpty())
 		{

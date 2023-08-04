@@ -14,8 +14,7 @@ public interface MyInterface {
 
 		return myNummber;
 	}
-	
-	//Concrete Method 
+		//Concrete Method 
 	 String callMyex();
 	 
 	//Default Method

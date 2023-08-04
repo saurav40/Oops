@@ -15,7 +15,6 @@ public class Graph_1_no_of_provinces {
 				          {0,0,0,0,0},
 				          {0,0,1,0,0}
 		                 };
-		
 		System.out.println(countNoOfProvinces(grid2));
 	}
 

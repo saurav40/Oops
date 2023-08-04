@@ -85,8 +85,8 @@ public class DP_E_01_Longest_Increasing_Subsequence {
 							int notPick = 0 + dp[idx+1][prev+1];
 							dp[idx][prev+1]=Math.max(pick, notPick);
 				}
-						else //Not take
-							 dp[idx][prev+1]=0 + dp[idx+1][prev];
+				else //Not take
+			       dp[idx][prev+1]=0 + dp[idx+1][prev+1];
 			}
 		}
 		return dp[0][0];
