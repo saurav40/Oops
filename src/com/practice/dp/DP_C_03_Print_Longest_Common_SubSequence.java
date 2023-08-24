@@ -23,7 +23,7 @@ public class DP_C_03_Print_Longest_Common_SubSequence {
 			}
 		}
 		int index=dp[n][m];
-				char ans[] = new char[index];
+		char ans[] = new char[index];
 		int i=n;
 		int j=m;
 		index--;

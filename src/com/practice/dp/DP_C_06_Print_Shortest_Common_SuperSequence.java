@@ -18,7 +18,7 @@ package com.practice.dp;
 public class DP_C_06_Print_Shortest_Common_SuperSequence {
   public static void main(String[] args) {
 	String a = "AGGTAB";
-	String b = "GXTXAYB";
+	String b = "GXTXAYB"; 
 	System.out.println(scsTab(a,b,a.length(),b.length()));
  }
   static String scsTab(String s1,String s2,int n,int m)
@@ -71,6 +71,7 @@ public class DP_C_06_Print_Shortest_Common_SuperSequence {
      }
      while(j>0)
      {
+    	 //System.out.println("Hey2");
          ans[index--] = s2.charAt(j-1);
          j--;
      }

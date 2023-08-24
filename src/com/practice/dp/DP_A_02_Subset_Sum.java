@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class DP_A_02_Subset_Sum {
 	public static void main(String[] args) {
-        int set[]={3, 34, 5, 12, 5, 2};
+        int set[]={3, 34, 5, 12, 5, 1};
         int target = 9;
         
         //recursive 

@@ -11,7 +11,7 @@ public class DP_E_05_Longest_Biotonic_SubSequence {
         dp1 : 1 2 1 3 4 1
         dp2 : 3 3 2 2 2 1
               4 5 3 5 6 1
-    biotonic: 3 4 2 4 5 1
+    biotonic: 3 4 2 4 5 1 =>(dp1[i]+dp2[i])=>maximize
              max = 5 
              ans = 5          
       */

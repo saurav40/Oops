@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class DP_A_04_Count_Subset_With_Sum_Equal_X {
 	public static void main(String[] args) {
-      int input1[]= {2,7,5,6,8,10};
-      int x1 = 10;
+      int input1[]= {0,2,4,3,5,6,-2,4,7,8,9}; 
+      int x1 = 7;
       
       System.out.println(countSubsets(input1, x1));
 	}

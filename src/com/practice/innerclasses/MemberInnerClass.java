@@ -5,6 +5,7 @@ import com.practice.innerclasses.MemberInnerClass.Inner.Inner2;
 //Regular Inner Class
 public class MemberInnerClass {
 	private int x = 30;
+	private int y =10;
 
 	void msg(){
 		System.out.println(x);
@@ -14,7 +15,7 @@ public class MemberInnerClass {
 		private int x = 60;
 
 		void msg() {
-			System.out.println(x+"data is " + MemberInnerClass.this.x);
+			System.out.println(x+"data is " + MemberInnerClass.this.x+" "+y);
 			MemberInnerClass.this.msg();
 		}
 
@@ -23,7 +24,7 @@ public class MemberInnerClass {
 
 			void msg() {
 				System.out
-						.println("data is " + MemberInnerClass.Inner.this.x + ":" + MemberInnerClass.this.x + ":" + x);
+						.println("data is " + MemberInnerClass.Inner.this.x + ":" + MemberInnerClass.this.x + ":" + x+" "+y);
 			}
 		}
 	}
