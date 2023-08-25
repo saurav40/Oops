@@ -4,7 +4,6 @@ public class ConstructorCallFromConstrutor {
    // constructor chaining
 	public ConstructorCallFromConstrutor() {
 		this(2);
-		
 	}
 	public ConstructorCallFromConstrutor(int x)
 	{
