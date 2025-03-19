@@ -6,7 +6,10 @@ import java.util.Queue;
 public class Graph_2_No_of_islands {
 	public static void main(String[] args) {
 		char[][] grid =  {
-				{'1','1','0','0','0'},{'1','1','0','0','0'},{'0','0','1','0','0'},{'0','0','0','1','1'}};
+				{'1','1','0','0','0'},
+				{'1','1','0','0','0'},
+				{'0','0','1','0','0'},
+				{'0','0','0','1','1'}};
 //			{ { '1', '1', '1', '1', '0' }, { '1', '1', '0', '1', '0' }, { '1', '1', '0', '0', '0' },
 //				{ '0', '0', '0', '0', '0' } };
 		char [][] grid2 = {
@@ -16,7 +19,7 @@ public class Graph_2_No_of_islands {
 		          {'0','0','0','0','0'},
 		          {'0','0','1','0','0'}
                };
-		System.out.println(noOfIslands(grid2));
+		System.out.println(noOfIslands(grid));
 	}
 
 	public static int noOfIslands(char[][] grid) {

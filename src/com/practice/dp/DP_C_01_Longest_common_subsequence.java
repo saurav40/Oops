@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class DP_C_01_Longest_common_subsequence {
 	public static void main(String[] args) {
-      String s1 = "abcdefghji";
-      String s2 ="acefjlm";
-      
+      String s1 = "dmtjtvqyiedezraoqkfu";
+      String s2 = "ufkqoarzedeiyqvtjtmd";
+      System.out.println(s1.length());
       //recursion
       System.out.println(lcsR(s1,s2,s1.length(),s2.length()));
       //Memoization

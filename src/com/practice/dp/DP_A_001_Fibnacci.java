@@ -5,11 +5,26 @@ import java.util.Arrays;
 public class DP_A_001_Fibnacci {
 	public static void main(String[] args) {
        System.out.println(fibnacciR(5));
-       int n=10;
+       int n=45;
        int dp[]=new int[n+1];
        Arrays.fill(dp, -1);
        System.out.println(fibnacciM(n, dp));
-       System.out.println(fibnacciT(11));
+       System.out.println(fibnacciT(n));
+       System.out.println(fibanaciiTwoPointer(n));
+	}
+	static int fibanaciiTwoPointer(int n)
+	{
+		if(n<=1)
+			return n;
+		int prev = 0;
+		int next = 1;
+		for(int i=2;i<=n;i++)
+		{
+			int curr = prev + next;
+			prev = next;
+			next = curr;
+		}
+		return next;
 	}
 	static int fibnacciT(int n)
 	{

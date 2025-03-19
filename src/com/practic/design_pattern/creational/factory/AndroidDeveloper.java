@@ -5,6 +5,14 @@ public class AndroidDeveloper implements Employee{
    public int getSalary()
    {
 	 System.out.println("Android Developer Salary:");
-     return 50000;
+     return 500000;
+   }
+   public String sayHello()
+   {
+	   System.out.println("Hello world");
+	   for(int i=0;i<10;i++)
+		   System.out.println(i);
+		  
+       return "";
    }
 }

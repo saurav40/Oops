@@ -5,6 +5,6 @@ public class BackendDeveloper implements Employee{
   public int getSalary()
   {
 	  System.out.println("Backend Developer Salary:");
-	  return 60000;
+	  return 600000;
   }
 }

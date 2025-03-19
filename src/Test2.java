@@ -33,9 +33,9 @@ public class Test2 {
 		int [][] grid = new int[len][len];
 		int r = len;
 		int c = len;
-		int i=0;
-		int j=0;
-		int val =n;
+		int i = 0;
+		int j = 0;
+		int val = n;
 		while(i<r && j < c)
 		{
 			//fill first row;

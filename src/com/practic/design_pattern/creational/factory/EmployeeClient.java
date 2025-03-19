@@ -11,9 +11,11 @@ public class EmployeeClient {
 		 * Employee based on requirement- Factory Design Pattern
 		 */
 	     EmployeeFactory empFactory = new EmployeeFactory();
-         Employee employee = empFactory.getEmployee("Android Developer");
-         System.out.println("Salary:"+employee.getSalary());
-         Employee employee2 = empFactory.getEmployee("Backend Developer");
-         System.out.println("Salary:"+employee2.getSalary());
+         
+//	     Employee employee = empFactory.getEmployee("Android Developer");
+//         System.out.println("Salary:"+employee.getSalary());
+//         
+//         Employee employee2 = empFactory.getEmployee("Backend Developer");
+//         System.out.println("Salary:"+employee2.getSalary());
 	}
 }

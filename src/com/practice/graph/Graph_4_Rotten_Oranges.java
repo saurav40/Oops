@@ -6,9 +6,10 @@ import java.util.Queue;
 public class Graph_4_Rotten_Oranges {
 	public static void main(String[] args) {
       int[][] grid = {{2,1,1},{1,1,0},{0,1,1}};
+      int [][] grid2 = {{0,1,2},{0,1,2},{2,1,1},};
       // 2-> rotten,1->fresh,0->empty cell
       // return -1 if all fress oranges are not rotten
-      System.out.println(rotten_oranges(grid));
+      System.out.println(rotten_oranges(grid2));
 	}
 	//using bfs
 	private static int rotten_oranges(int[][] grid)

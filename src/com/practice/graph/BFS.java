@@ -3,7 +3,7 @@ package com.practice.graph;
 import java.util.*;
 
 public class BFS {
-	int v;
+	int v; 
 	ArrayList<ArrayList<Integer>> adj;
 
 	public BFS(int v) {
@@ -17,6 +17,7 @@ public class BFS {
 
 	void addDEdge(int u, int v) {
 		adj.get(u).add(v);
+		//adj.get(v).add(u);
 	}
 
 	void print() {
@@ -62,7 +63,7 @@ public class BFS {
        graph.addDEdge(2, 3);
        graph.addDEdge(3, 3);
        
-       ArrayList<Integer> res = graph.bfs(2 );
+       ArrayList<Integer> res = graph.bfs(3 );
        for(int vertex : res)
        {
     	   System.out.print(vertex+",");
